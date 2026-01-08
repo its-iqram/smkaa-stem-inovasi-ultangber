@@ -13,8 +13,10 @@
     <header>
         <div class="container">
             <nav class="navbar">
-                <div class="logo">
-                    <img src="assets/logo.png" alt="ULTANGBER Logo">
+                <div class="logo-group">
+                    <img src="assets/smkaa.png" alt="SMK Apin-Apin Logo" class="school-logo">
+                    <div class="logo-divider"> </div>
+                    <a href="https://smkaa-ultangber.netlify.app"> <img src="assets/logo.png" alt="ULTANGBER Logo" class="ultangber-logo"> </a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#hero">Utama</a></li>
@@ -35,7 +37,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Matematik bukan lagi <span>sekadar nombor di kertas.</span></h1>
-                <p>Transformasi pembelajaran Algebra dan Integer melalui gamifikasi papan permainan klasik. Bina kefahaman, tingkatkan minat, dan kuasai silibus Tingkatan 1-3.</p>
+                <p>Transformasi pembelajaran Algebra dan Integer melalui gamifikasi papan permainan klasik. Bina kefahaman, tingkatkan minat, dan kuasai algebra Tingkatan 1-3.</p>
                 <a href="#pengenalan" class="btn btn-primary">Apa itu ULTANGBER?</a>
             </div>
         </div>
@@ -73,61 +75,85 @@
             <div class="section-title">
                 <h2>Komponen & Cara Bermain</h2>
             </div>
-            <div class="komponen-content">
-                <div class="komponen-grid">
-                    <div class="komponen-card">
-                        <div class="komponen-icon">
-                            <i class="fas fa-border-all"></i>
-                        </div>
-                        <h3>Papan Cabaran ULTANGBER</h3>
-                        <p>Papan permainan yang direka khas dengan petak-petak istimewa seperti ular, tangga, integer positif/negatif, dan petak beku.</p>
+            <div class="komponen-grid">
+                <div class="komponen-card">
+                    <div class="komponen-icon">
+                        <i class="fas fa-border-all"></i>
                     </div>
-                    <div class="komponen-card">
-                        <div class="komponen-icon">
-                            <i class="fas fa-file-alt"></i>
-                        </div>
-                        <h3>Kad Cabaran</h3>
-                        <p>Kad soalan mengikut aras kesukaran (Aras 1-3) yang sepadan dengan kurikulum DSKP Matematik Tingkatan 1-3.</p>
+                    <h3>Papan Cabaran ULTANGBER</h3>
+                    <p>Papan permainan yang direka khas dengan petak-petak istimewa seperti ular, tangga, integer positif/negatif, dan petak beku.</p>
+                </div>
+                <div class="komponen-card">
+                    <div class="komponen-icon">
+                        <i class="fas fa-file-alt"></i>
                     </div>
-                    <div class="komponen-card">
-                        <div class="komponen-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <h3>Kad Kuasa</h3>
-                        <p>4 jenis kad istimewa yang memberi kelebihan strategik seperti membekukan lawan, menggandakan langkah, atau menukar tempat.</p>
+                    <h3>Kad Cabaran</h3>
+                    <p>Kad soalan mengikut aras kesukaran (Aras 1-3) yang sepadan dengan kurikulum DSKP Matematik Tingkatan 1-3.</p>
+                </div>
+                <div class="komponen-card">
+                    <div class="komponen-icon">
+                        <i class="fas fa-bolt"></i>
                     </div>
-                    <div class="komponen-card">
-                        <div class="komponen-icon">
-                            <i class="fas fa-gamepad"></i>
+                    <h3>Kad Kuasa</h3>
+                    <p>4 jenis kad istimewa yang memberi kelebihan strategik seperti membekukan lawan, menggandakan langkah, atau menukar tempat.</p>
+                </div>
+                <div class="komponen-card">
+                    <div class="komponen-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Token & Dadu</h3>
+                    <p>Token berwarna untuk pemain dan dadu untuk menentukan jumlah langkah dalam setiap giliran.</p>
+                </div>
+            </div>
+            
+            <div class="cara-bermain">
+                <h3>Cara Bermain ULTANGBER</h3>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Gerak Token</h4>
+                            <p>Pemain baling dadu secara bergilir-gilir. Bilangan yang diperoleh menunjukkan jumlah langkah yang token akan digerakkan.</p>
                         </div>
-                        <h3>Token & Dadu</h3>
-                        <p>Token berwarna untuk pemain dan dadu untuk menentukan jumlah langkah dalam setiap giliran.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Jawab Cabaran</h4>
+                            <p>Apabila token mendarat di petak istimewa (ular, tangga, integer, atau freeze), pemain perlu mengambil Kad Cabaran dan menjawab soalan matematik.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Menang Strategi</h4>
+                            <p>Pemain yang berjaya menjawab soalan aras 3 akan mendapat Kad Kuasa untuk strategi permainan yang lebih menarik.</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="cara-bermain">
-                    <h3>Cara Bermain ULTANGBER</h3>
-                    <div class="steps">
-                        <div class="step-card">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <h4>Gerak Token</h4>
-                                <p>Pemain baling dadu secara bergilir-gilir. Bilangan yang diperoleh menunjukkan jumlah langkah yang token akan digerakkan.</p>
-                            </div>
+                <div class="petak-istimewa">
+                    <h4>Petak Istimewa dalam ULTANGBER</h4>
+                    <div class="petak-grid">
+                        <div class="petak-card">
+                            <h5>Tangga</h5>
+                            <p>Pemain ambil Kad Cabaran. Jika jawab betul, naik tangga ke petak paling atas. Jika salah, kekal di bawah tangga.</p>
                         </div>
-                        <div class="step-card">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <h4>Jawab Cabaran</h4>
-                                <p>Apabila token mendarat di petak istimewa (ular, tangga, integer, atau freeze), pemain perlu mengambil Kad Cabaran dan menjawab soalan matematik.</p>
-                            </div>
+                        <div class="petak-card">
+                            <h5>Ular</h5>
+                            <p>Pemain ambil Kad Cabaran. Jika jawab betul, kekal di kepala ular. Jika salah, token turun ke hujung ekor ular.</p>
                         </div>
-                        <div class="step-card">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <h4>Menang Strategi</h4>
-                                <p>Pemain yang berjaya menjawab soalan aras 3 akan mendapat Kad Kuasa untuk strategi permainan yang lebih menarik.</p>
-                            </div>
+                        <div class="petak-card">
+                            <h5>Integer Positif</h5>
+                            <p>Pemain ambil Kad Cabaran. Jika jawab betul, bergerak ke hadapan berdasarkan nilai positif. Jika salah, kekal di petak.</p>
+                        </div>
+                        <div class="petak-card">
+                            <h5>Integer Negatif</h5>
+                            <p>Pemain ambil Kad Cabaran. Jika jawab betul, kekal di petak. Jika salah, undur ke belakang berdasarkan nilai negatif.</p>
+                        </div>
+                        <div class="petak-card">
+                            <h5>Freeze</h5>
+                            <p>Pemain yang tiba di petak ini akan dibekukan selama 1 giliran. Pemain hanya boleh bermain semula pada giliran berikutnya.</p>
                         </div>
                     </div>
                 </div>
@@ -188,16 +214,19 @@
             </div>
             <div class="galeri-grid">
                 <div class="galeri-item">
-                    <img src="assets/galeri/galeri-pp.jpg" alt="Galeri 1">
+                    <img src="assets/galeri/galeri-cf.jpg" alt="Galeri 1">
                 </div>
                 <div class="galeri-item">
                     <img src="assets/galeri/galeri-fd.jpg" alt="Galeri 2">
                 </div>
                 <div class="galeri-item">
-                    <img src="assets/galeri/galeri-cf.jpg" alt="Galeri 3">
+                    <img src="assets/galeri/galeri-mf.jpg" alt="Galeri 3">
                 </div>
                 <div class="galeri-item">
-                    <img src="assets/galeri/galeri-mf.jpg" alt="Galeri 4">
+                    <img src="assets/galeri/galeri-pp.jpg" alt="Galeri 4">
+                </div>
+                <div class="galeri-item">
+                    <img src="assets/galeri/galeri-an.jpg" alt="Galeri 4">
                 </div>
             </div>
         </div>
@@ -207,18 +236,13 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
                     <h3>ULTANGBER</h3>
                     <p>Kit bermain & belajar inovatif untuk meningkatkan pemahaman konsep matematik melalui pendekatan gamifikasi.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Hubungi Kami</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> inovasismkapin-apin@gmail.com</li>
-                        <li><i class="fas fa-phone"></i> +601156527350 (Faridah)</li>
-                        <li><i class="fas fa-map-marker-alt"></i> SMK Apin-Apin, Keningau</li>
-                    </ul>
-                </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +601156527350 (Faridah)</p>
+                        <p><i class="fas fa-envelope"></i> inovasismkapin-apin@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> <a href="https://bit.ly/smkaa-ultangber" target="_blank">www.bit.ly/smkaa-ultangber</a></p>
+                    </div>
             </div>
             <div class="copyright">
                 <p>&copy; 2025 SEMEKAP STEM's Club – Hak Cipta Terpelihara</p>
