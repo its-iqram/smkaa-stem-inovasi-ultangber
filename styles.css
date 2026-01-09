@@ -172,7 +172,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: url('https://via.placeholder.com/1920x800?text=Background+Pattern') center/cover no-repeat;
+    background: url('assets/background.png') center/cover no-repeat;
     padding: 100px 0;
     position: relative;
     overflow: hidden;
